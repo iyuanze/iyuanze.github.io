@@ -21,7 +21,7 @@ domainUrl: 'https://blog.tmaize.net'
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
-tucaoUrl: https://support.qq.com/product/86335{:target="_blank"}
+tucaoUrl: https://support.qq.com/products/365559/
 
 # 菜单
 menu:
