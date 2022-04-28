@@ -5,7 +5,7 @@ title: iyuanze Blog
 description: iyuanze的个人博客
 keywords: iyuanze,Blog,Java,Html,JavaScript
 author: iyuanze
-footerText: 'Copyright © 2021 未ICP备00000000号'
+footerText: 'Copyright © 2022 未ICP备00000号'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
