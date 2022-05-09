@@ -5,17 +5,11 @@
   <span>Theme</span>
   <a href="https://github.com/TMaize/tmaize-blog">TMaize</a>
 
-  <% if (theme.busuanziStatistics && theme.busuanziStatistics.totalTraffic) { %>
-    <span id="busuanzi_container_site_pv" style='display:none'>
-        <i class="fa fa-heart-o"></i>
-        本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
-    </span>
-<% } %>
-<% if (theme.busuanziStatistics && theme.busuanziStatistics.totalNumberOfvisitors) { %>
-    <span id="busuanzi_container_site_uv" style='display:none'>
-        人次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
-    </span>
-<% } %>
+  <!-- 不蒜子计数 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" >| 总访问量 <span id="busuanzi_value_site_pv"></span> 次 </span>
+<span id="busuanzi_container_site_uv" >| 总访客数 <span id="busuanzi_value_site_uv"></span> 人 </span>
+<!-- 不蒜子计数 -->	
 </footer>
 <div id="to-top">
   <span></span>
