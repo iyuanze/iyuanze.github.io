@@ -23,12 +23,6 @@ baseurl: ''
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://support.qq.com/products/365559/
 
- ```yml
- # disqus settings
- disqus:
- shortname: zahui
- ```
-
 # 菜单
 menu:
   - title: 首页
