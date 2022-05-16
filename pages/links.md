@@ -6,8 +6,8 @@ title: 友情链接
 欢迎各位朋友与我建立友链，如需友链请到[留言板](chat.html)留言，我看到留言后会添加上的，本站的友链信息如下
 
 ```
-名称：iyuanze blog
-描述： 一个大杂烩zahui.top
+名称：涓滴意念汇成河
+描述：一个大杂烩，走一程有一程的风景，进一步有一步的欢喜。
 地址：http://www.zahui.top/
 头像：http://www.zahui.top/static/img/logo.jpg
 ```
