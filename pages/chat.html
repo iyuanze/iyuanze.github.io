@@ -10,3 +10,16 @@ title: 留言板
 链接：
 
 https://support.qq.com/products/365559/
+
+ Add a variable called comments to the YAML Front Matter and set its value to true. A sample front matter might look like:
+
+ ---
+ layout: default
+ comments: true （ture为有评论/false为无）
+ # other options
+ ---
+
+ In between a {% if page.comments %} and a {% endif %} tag, copy and paste the Universal Embed Code in the appropriate template where you'd like Disqus to load.
+
+ Note: Comments can be disabled per-page by setting comments: false or by not including the comments option at all.
+
