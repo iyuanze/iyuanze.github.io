@@ -8,8 +8,8 @@ title: 友情链接
 ```
 名称：涓滴意念汇成河
 描述：一个大杂烩，走一程有一程的风景，进一步有一步的欢喜。
-地址：[https://www.zahui.top/](https://www.zahui.top/)
-头像：[https://www.zahui.top/static/img/logo.jpg](https://www.zahui.top/static/img/logo.jpg)
+地址：https://www.zahui.top/
+头像：https://www.zahui.top/static/img/logo.jpg
 ```
 
 <ul>
