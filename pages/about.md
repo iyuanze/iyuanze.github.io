@@ -5,7 +5,7 @@ title: 关于我
 
 > Hello 陌生人，欢迎访问 [涓滴意念汇成河](http://www.zahui.top/)
 
-该博客托管于 GitHub Page 。留言页面使用腾讯的“吐个槽”
+该博客托管于 GitHub Page 。
 
 主题是Tmaize写的，见[tmaize-blog](https://github.com/TMaize/tmaize-blog)，喜欢的话可以给ta个小星星。
 
@@ -13,9 +13,9 @@ title: 关于我
 
 ## 相关技能
 
-- 躺平
+- 开发中
 
-- 摸鱼
+- 开发中
 
 ## 联系我
 
