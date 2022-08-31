@@ -3,8 +3,7 @@ layout: mypost
 title: 关于我
 ---
 
-> Hello 陌生人，欢迎访问 [涓滴意念汇成河](http://www.zahui.top/)
-> 管它真理无穷，走一程有一程的风景，进一步有一步的欢喜。让我们把涓滴意念汇成河。
+> Hello 陌生人，欢迎访问 [涓滴意念汇成河](http://www.zahui.top/)<br>管它真理无穷，走一程有一程的风景，进一步有一步的欢喜。让我们把涓滴意念汇成河。
 
 该博客托管于 GitHub Page 。<br>主题是Tmaize写的，见[tmaize-blog](https://github.com/TMaize/tmaize-blog)，喜欢的话可以给ta个小星星。
 
