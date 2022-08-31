@@ -4,7 +4,7 @@ encoding: utf-8
 title: 涓滴意念汇成河
 description: iyuanze的个人博客
 keywords: iyuanze,Blog,Java,Html,zahui
-author: iyuanze
+author: zahui
 footerText: 'Copyright © 2022 未ICP备00000号'
 
 # 这些不要动
@@ -66,9 +66,8 @@ links:
     url: https://www.agrass.cn/
     
   
-  - title: 物业经营
+  - title: 物业经营-一个物业人多种经营的思考
     url: https://www.wuyeso.com
-  - title: 物业导航
-    url: http://so.wuyeso.com
+
  
 
