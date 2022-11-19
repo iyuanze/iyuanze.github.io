@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title:  openwrt开启smb网络共享，挂载kodi的smb服务器
-categories: [openwrt,smb,kodi,挂载点]
+categories: [openwrt,smb,kodi,挂载点,samba]
 ---
 
 #### 一，openwrt开启smb网络共享的流程
