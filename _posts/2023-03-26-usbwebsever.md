@@ -1,10 +1,9 @@
-
 ---
 layout: mypost
-title: 使用U盘搭建Web本地服务器安装zblog
+title:  使用U盘搭建Web本地服务器安装zblog
 categories: [usbwebserver,zblog,U盘服务器]
-
 ---
+
 
 周末在[十年之约foreverblg专题展示](https://www.foreverblog.cn/feeds.html) 浏览加入十年之约的博客rss。看到了一篇文章，讲到了使用U盘搭建Web本地服务器。博主说到，有了随身携带可编辑，并且不对外展示的个人博客的需求。虽然本人目前没有这样的需求，但是尝试了一下，这个usbwebsever搭建起来确实非常方便，安装zblog测试一下，没有任何报错。
 
