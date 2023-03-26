@@ -51,7 +51,7 @@ PhpMyAdmin 访问路径：<http://localhost/phpmyadmin>
 
 ![rootdir](https://www.wuyeso.com/zb_users/upload/2023/03/202303261679826831291317.png)
 
-访问地址：<http://localhost/install.php，就可以在线安装（电脑需要有网络），数据库用户名，账号密码均按照上述说明填写即可。>
+访问地址：<http://localhost/install.php>   就可以在线安装（电脑需要有网络），数据库用户名，账号密码均按照上述说明填写即可。
 
 #### # 拓展下载
 
