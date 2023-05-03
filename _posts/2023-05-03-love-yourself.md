@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 因为你还没有爱上自己
+title: 因为你还没有爱上你自己
 categories: [爱上自己,有恃无恐,自信,规矩]
 ---
 
