@@ -22,14 +22,18 @@
 <hr />
   
   <!-- 下面是cusdis的评论模块 -->
+  {%- if page.id -%}
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="58a256fa-4ac6-4d0a-9a4c-d57558079c75"
-  data-page-id="{{ PAGE_ID }}"
-  data-page-url="{{ PAGE_URL }}"
-  data-page-title="{{ PAGE_TITLE }}"
+  data-page-id="{{ page.id }}"
+  data-page-url="{{ site.url }}{{ page.baseurl }}{{ page.url }}"
+  data-page-title="{{ page.title }}"
 ></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script defer src="https://cusdis.com/js/cusdis.es.js"></script>
+{%- endif -%}
+<!-- 以下是原页面内容 -->
+  
 {% include footer.html -%}
 {% include script.html -%}
 </body>
