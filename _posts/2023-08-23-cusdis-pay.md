@@ -21,8 +21,8 @@ cusdis的开发者将管理后台（dashboard）做了更新，页面变得更�
 #### # cusdis的邮件通知
 
 cusdis的邮件通知功能，依旧好用，并且在管理后台看不到的留言者邮箱，在邮件通知的内容里面可以看到。
-<img src="https://www.wuyeso.com/i/zb_users/upload/2023/08/202308231692772454892729.jpg" width="30%" height="30%" />
-<img src="https://www.wuyeso.com/i/zb_users/upload/2023/08/202308231692772561181152.jpg" width="30%" height="30%" />
+<img src="https://www.wuyeso.com/i/zb_users/upload/2023/08/202308231692772454892729.jpg" width="50%" height="50%" />
+<img src="https://www.wuyeso.com/i/zb_users/upload/2023/08/202308231692772561181152.jpg" width="50%" height="50%" />
 
 #### # cusdis收费版总结
 - 小博客仍然推荐使用，不需实名，评论审核100次/月基本够用，邮件通知稳定。
