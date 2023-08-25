@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 语音转文字工具评测
+title: 语音转文字工具评测:网易见外vs飞书妙记
 categories: [语音转文字,网易见外,飞书妙记,pdf365]
 ---
 
@@ -11,7 +11,7 @@ categories: [语音转文字,网易见外,飞书妙记,pdf365]
 #### # pdf365，福昕旗下的工具平台
 语音转文字，可以免费5分钟，不嫌麻烦可以用音频软件把语音文件分割一下，分段转换。
 
-> **++pdf365++**：[网址](https://www.pdf365.cn/voice-to-word/)
+> **pdf365网址**：[网址](https://www.pdf365.cn/voice-to-word/)
 
 #### # 网易见外
 这是一款在线办公工具集，功能涵盖视频翻译、视频转写、字幕翻译、文档翻译、语音翻译、语音转写、会议同传、图片翻译8大版块，都是我们日常办公中会比较经常遇到的一些需求。
@@ -25,7 +25,7 @@ categories: [语音转文字,网易见外,飞书妙记,pdf365]
 - 测试过程中没有收费提示
 <img src="https://www.wuyeso.com/i/zb_users/upload/2023/08/202308251692977869535571.jpg" width="50%" height="auto">
 
-> **++网易见外++**：[jianwai.youdao.com](https://jianwai.youdao.com/)
+> **网易见外网址**：[jianwai.youdao.com](https://jianwai.youdao.com/)
 
 #### # 飞书妙记
 这个工具主打会议记录，会议信息完美还原，会议纪要一目了然，异步开会轻松实现。视频、音频等文件便捷撰写，关键词智能提取，使用场景很丰富。还支持多种语言，非常智能。
@@ -38,7 +38,7 @@ categories: [语音转文字,网易见外,飞书妙记,pdf365]
 - 可复制，但是没有导出功能
 - 测试过程中没有收费提示
 <img src="https://www.wuyeso.com/i/zb_users/upload/2023/08/202308251692978029339784.jpg" width="50%" height="auto">
-> **++飞书妙记++**：[feishu.cn](https://feishu.cn)
+> **飞书妙记网址**：[feishu.cn](https://feishu.cn)
 
 #### # 总结
 推荐飞书妙计，功能性和交互更适合职场人。转文字的准确性，网易见外和飞书妙记都不是那么理想，但是相较之下，飞书更懂职场人，一些职场人常用词汇还是很准确的。例如“不是 brand marketing，是作秀的。他在于什么？在于创意。”
