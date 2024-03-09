@@ -15,9 +15,9 @@ categories: [readdig,RSS,RSS源,TinyTinyRSS,FreshRSS]
 #### # 选择RSS服务程序
 搜索了一下如果自建RSS服务的话，推荐的比较多的还是Tiny Tiny RSS和FreshRSS。目前还有一个bluehost的虚拟主机在续费，准备自建一个RSS服务。
 
-- Tiny Tiny RSS 官网：Tiny Tiny RSS (tt-rss.org) 官网。需要用docker安装。
+- Tiny Tiny RSS 官网：[Tiny Tiny RSS (tt-rss.org) 官网](https://tt-rss.org/)。
 
-- FreshRSS 官网： FreshRSS, a free, self-hostable feeds aggregator
+- FreshRSS 官网： [FreshRSS, a free, self-hostable feeds aggregator](https://www.freshrss.org/)
 
 对比下来FreshRSS安装更简单，可以用虚拟主机。原计划官网下载安装包，虚拟主机安装。后来想到bluthost有softaculous服务。Tiny Tiny RSS更新事件2019年8月，FreshRSS更新时间2023年12月。毫无疑问选择FreshRSS。
 
