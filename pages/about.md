@@ -30,7 +30,7 @@ title: 关于我
 
 - QQ&nbsp;&nbsp;&nbsp;&nbsp;: 不怎么用了
 
-- Email&nbsp;: [103088@gmail.com](https://mail.google.com/mail/u/0/#inbox)
+- Email&nbsp;: [103088#gmail.com](https://mail.google.com/mail/u/0/#inbox)
 
 - GitHub: [https://github.com/iyuanze](https://github.com/iyuanze)
 
