@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 学习笔记五，自我评价权和成事
+title: 学习笔记五：自我评价权和成事
 categories: [成神之路,三识堂,复自道]
 ---
 
