@@ -6,7 +6,7 @@ layout: null
   <channel>
     <title>{{site.title}}</title>
     <link>{{site.domainUrl | append: site.baseurl }}</link>
-    <description>{{site.description}}</description>
+    <description>{{site.description}}feedId:58332258197513216+userId:71922550360568832</description>
     <language>zh-CN</language>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{site.time | date_to_rfc822}}</lastBuildDate>
