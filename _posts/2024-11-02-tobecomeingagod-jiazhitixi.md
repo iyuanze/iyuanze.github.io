@@ -23,7 +23,7 @@ categories: [成神之路,三识堂,复自道]
 
 刚才咱们说了，这种评估对于没有系统学习过这类知识的人来说，……
 
-[完整的内容请点此跳转](https://mp.weixin.qq.com/s?__biz=MzUzODU0NjMxNA==\&mid=2247484969\&idx=1\&sn=5de443c66fc0df89e697b87b48d1ee25\&chksm=fad75fcccda0d6dafcaccd91a7891faa34c2deba6c4be8679ea346b7cae673819f525d4559db\&token=1677741053\&lang=zh_CN#rd)
+[完整的内容请点此跳转](https://mp.weixin.qq.com/s?__biz=MzUzODU0NjMxNA==&mid=2247484969&idx=1&sn=5de443c66fc0df89e697b87b48d1ee25&chksm=fad75fcccda0d6dafcaccd91a7891faa34c2deba6c4be8679ea346b7cae673819f525d4559db&token=1677741053&lang=zh_CN#rd)
 
 ***
 
