@@ -31,32 +31,7 @@
   data-page-title="{{ page.title }}"
 ></div>
 <script defer src="https://cusdis.com/js/cusdis.es.js"></script>
-  <!-- discus的评论模块不跟随系统颜色 -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var cusdisThread = document.getElementById('cusdis_thread');
-    if (cusdisThread) {
-      cusdisThread.setAttribute('data-theme', 'light');
-    }
-  });
-</script>
-    <!-- 解除cusdis的评论折叠 -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var cusdisThread = document.getElementById('cusdis_thread');
-    if (cusdisThread) {
-      cusdisThread.style.height = 'auto';
-      cusdisThread.style.maxHeight = 'none';
-    }
 
-    var commentsContainer = document.querySelector('#cusdis_thread .cusdis-comments-container');
-    if (commentsContainer) {
-      commentsContainer.style.height = 'auto';
-      commentsContainer.style.maxHeight = 'none';
-      commentsContainer.style.overflow = 'visible';
-    }
-  });
-</script>
 {%- endif -%}
 <!-- 以下是原页面内容 -->
   
