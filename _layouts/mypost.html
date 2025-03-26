@@ -40,6 +40,23 @@
     }
   });
 </script>
+    <!-- 解除cusdis的评论折叠 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var cusdisThread = document.getElementById('cusdis_thread');
+    if (cusdisThread) {
+      cusdisThread.style.height = 'auto';
+      cusdisThread.style.maxHeight = 'none';
+    }
+
+    var commentsContainer = document.querySelector('#cusdis_thread .cusdis-comments-container');
+    if (commentsContainer) {
+      commentsContainer.style.height = 'auto';
+      commentsContainer.style.maxHeight = 'none';
+      commentsContainer.style.overflow = 'visible';
+    }
+  });
+</script>
 {%- endif -%}
 <!-- 以下是原页面内容 -->
   
