@@ -31,6 +31,15 @@
   data-page-title="{{ page.title }}"
 ></div>
 <script defer src="https://cusdis.com/js/cusdis.es.js"></script>
+  <!-- discus的评论模块不跟随系统颜色 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var cusdisThread = document.getElementById('cusdis_thread');
+    if (cusdisThread) {
+      cusdisThread.setAttribute('data-theme', 'light');
+    }
+  });
+</script>
 {%- endif -%}
 <!-- 以下是原页面内容 -->
   
