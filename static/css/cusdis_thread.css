@@ -1,0 +1,13 @@
+#cusdis_thread {
+  --cusdis-text-color: #000; /* 文本颜色 */
+  --cusdis-background-color: #fff; /* 背景颜色 */
+  --cusdis-border-color: #ddd; /* 边框颜色 */
+  /* 其他颜色变量可以根据需要调整 */
+}
+
+#cusdis_thread .cusdis-comments-container {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
