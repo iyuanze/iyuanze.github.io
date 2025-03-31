@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+{% include head.html -%}
+<body ondragstart="return false;">
+{% include header.html -%}
+<div class="page page-post">
+  <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
+  {% if page.date %}
+  <div class="subtitle">{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
+  {% endif %}
+  <div class="post">
+    {{ content }}
+  </div>
+  {% if site.extAdsense -%}
+  <div class="adsense" style="overflow: hidden;">
+    {% include ext-adsense.html -%}
+  </div>
+  {% endif %}
+</div>
+  <br />
+  <br />
+<hr />
+ <!-- 下面是twikoo的评论模块 -->
+  <div id="tcomment"></div>
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://zacom.netlify.app/.netlify/functions/twikoo', 
+  // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  //path:location.pathname // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+  <!-- twikoo引入锁定版本 -->
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js" 
+integrity="sha384-QgZlvw//W8lQwue8uv2qAszlmDJE1GzJa4dEA/tt3EEyn7VQd5BgrdZMzoCAkTQT" crossorigin="anonymous">
+</script>
+  
+  <!-- 下面是cusdis的评论模块 -->
+  {%- if page.id -%}
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="58a256fa-4ac6-4d0a-9a4c-d57558079c75"
+  data-page-id="{{ page.id }}"
+  data-page-url="{{ site.url }}{{ page.baseurl }}{{ page.url }}"
+  data-page-title="{{ page.title }}"
+></div>
+<script defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
+{%- endif -%}
+<!-- 以下是原页面内容 -->
+  
+{% include footer.html -%}
+{% include script.html -%}
+</body>
+</html>
