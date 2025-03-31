@@ -22,7 +22,7 @@
 <hr />
  <!-- 下面是twikoo的评论模块 -->
   <div id="tcomment"></div>
-<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.min.js"></script>
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js"></script>
 <script>
 twikoo.init({
   envId: 'https://zacom.netlify.app/.netlify/functions/twikoo', 
@@ -32,6 +32,10 @@ twikoo.init({
   // path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
   // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
 })
+</script>
+  <!-- twikoo引入锁定版本 -->
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js" 
+integrity="sha384-QgZlvw//W8lQwue8uv2qAszlmDJE1GzJa4dEA/tt3EEyn7VQd5BgrdZMzoCAkTQT" crossorigin="anonymous">
 </script>
   
   <!-- 下面是cusdis的评论模块 -->
