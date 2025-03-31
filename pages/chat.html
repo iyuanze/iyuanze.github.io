@@ -6,6 +6,20 @@ title: 留言板
 <br>提交后显示以下内容，表示留言成功：Your comment has been sent. Please wait for approval. 👍
 <br> #您的留言已发送，请等待审核。也可以邮件到103088#gmail.com<br>欢迎留言，建议填写 <font color="#FF2400"><b><u>真实邮箱(保密的)</b></u></font> 并在留言中留下你的<font color="#FF2400"><b><u>博客网址</b></u></font>，方便回访 THX ❤️
 
+ <!-- 下面是twikoo的评论模块 -->
+<div id="tcomment"></div>
+<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js"></script>
+<script>
+twikoo.init({
+  envId: 'https://zacom.netlify.app/.netlify/functions/twikoo', 
+  // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+  el: '#tcomment', // 容器元素
+  // region: 'ap-guangzhou', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  //path:'{{ site.url }}{{ page.baseurl }}{{ page.url }}' // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+  lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+})
+</script>
+
 <div id="cusdis_thread"
   data-host="https://cusdis.com"
   data-app-id="58a256fa-4ac6-4d0a-9a4c-d57558079c75"
