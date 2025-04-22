@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 学习笔记七：人际关系理论-价值判断
+title: 学习笔记07：人际关系理论-价值判断
 categories: [成神之路,三识堂,复自道]
 ---
 
