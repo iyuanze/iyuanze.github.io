@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 气场的强弱与注意力转移的关系
+title: 学习笔记09：气场的强弱与注意力转移的关系
 categories: [成神之路,三识堂,复自道]
 ---
 
