@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title:  学习笔记14：人际交往中的衡量天平
+title:  学习笔记15：人际交往中的衡量天平
 categories: [气场,专注,热爱]
 ---
 
