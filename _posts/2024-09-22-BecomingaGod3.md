@@ -1,6 +1,6 @@
 ---
 layout: mypost 
-title: 学习笔记三：复自道，自我评价权
+title: 学习笔记03：复自道，自我评价权
 categories: [成神之路,三识堂,复自道]
 ---
 
