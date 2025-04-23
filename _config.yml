@@ -50,26 +50,14 @@ extMath: false
 
 # 友情链接
 links:
-  - title: 愿星光伴你左右--一个自律的有想法的程序员
-    url: http://shanks.link/
   - title: TMaize博客--本博客的theme作者
     url: https://blog.tmaize.net/
-  - title: 糊涂说--任抛星汉归园圃，留取乾坤盛酒囊
-    url: https://hutusi.com/
-  - title: nikola的博客--用舍由时，行藏在我
-    url: https://hi-nikola.cn/
-  - title: 不如吃茶去--子舒的博客
-    url: https://zburu.com/
   - title: 游子微博--门影塘畔后花园，记录生活点滴。
     url: https://www.lindongfang.top
-  - title: 悠悠一草-一草的点滴记忆
-    url: https://www.agrass.cn/
   - title: 林林杂语
     url: https://www.xiaozonglin.cn/
   - title: 博客录（boke.lu）· 博客收录展示平台
     url: https://boke.lu
-  - title: 停云馆 · 君子有三畏：畏天命、畏大人、畏聖人之言
-    url: https://blog.yizhou.info/
   - title: 5had0w · 一个游走在互联网边缘的影子，希望在这个世界留下一点痕迹
     url: https://www.5had0w.com/
     
