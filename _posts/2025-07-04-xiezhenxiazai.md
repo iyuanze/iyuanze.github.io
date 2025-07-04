@@ -1,18 +1,24 @@
+---
+layout: mypost
+title:  某写真网站专辑下载，带预览功能
+categories: [python,写真,下载]
+---
 
 
-吾爱的大佬写的一个python文件
+吾爱的大佬写的一个python文件    
 原文链接：https://www.52pojie.cn/forum.php?mod=viewthread&tid=2043136&extra=page%3D1&page=1
 
 使用之前需要检查依赖：(可能需要科学)
-检查pip：pip --version
-升级pip: python -m pip install --upgrade pip
-安装requests： pip install requests
-安装beautifulsoup4: pip install beautifulsoup4
-安装PySide6: pip install PySide6
+1. 检查pip：pip --version
+2. 升级pip: python -m pip install --upgrade pip
+3. 安装requests： pip install requests
+4. 安装beautifulsoup4: pip install beautifulsoup4
+5. 安装PySide6: pip install PySide6
 
-将大佬的python代码复制到txt文档，修改后缀为.py，然后运行。
+将大佬的python代码复制到txt文档，修改后缀为.py，然后运行。   
 实测很好用。
 
+```
 import sys
 import threading
 import requests
@@ -908,3 +914,4 @@ if __name__ == "__main__":
     window = GalleryCrawler()
     window.show()
     sys.exit(app.exec())
+```
