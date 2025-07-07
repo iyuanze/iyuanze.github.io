@@ -14,6 +14,10 @@ categories: [python,写真,下载]
 3. 安装requests： pip install requests
 4. 安装beautifulsoup4: pip install beautifulsoup4
 5. 安装PySide6: pip install PySide6
+![](https://i.ooxx.ooo/i/ZTY1M.png)
+
+![](https://i.ooxx.ooo/i/ODkyZ.png)
+
 
 将大佬的python代码复制到txt文档，修改后缀为.py，然后运行。   
 实测很好用。
