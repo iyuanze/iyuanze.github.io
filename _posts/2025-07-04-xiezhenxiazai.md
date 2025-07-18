@@ -22,6 +22,8 @@ categories: [python,写真,下载]
 将大佬的python代码复制到txt文档，修改后缀为.py，然后运行。   
 实测很好用。
 
+（有留言说chi du有点大，把网址隐藏了。主要学习技术如果你有朋友想看，去52看看吧）
+
 ```
 import sys
 import threading
@@ -55,7 +57,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
   
 # 常量
-BASE_URL = "https://www.mxd009.cc"
+BASE_URL = "https://www.×××××.cc"
   
 def submit_search(keywords: str) -> str:
     """
@@ -403,7 +405,7 @@ class GalleryCrawler(QWidget):
         self.image_label.setStyleSheet("border: 1px solid gray;")
           
         self.link_label = QLabel()
-        self.link_label.setText('<a href="https://www.mxd009.cc/">在线浏览</a>')
+        self.link_label.setText('<a href="https://www.*******.cc/">在线浏览</a>')
         self.link_label.setOpenExternalLinks(True)  # &#9989; 允许打开外部链接
         self.link_label.setTextInteractionFlags(Qt.TextBrowserInteraction)  # 可点击
         self.link_label.setAlignment(Qt.AlignCenter)
@@ -530,7 +532,7 @@ class GalleryCrawler(QWidget):
         if not selected_items:
             self.image_label.setText("选中项缩略图显示区域")
             self.image_label.setPixmap(QPixmap())  # 清空图片
-            self.link_label.setText('<a href="https://www.mxd009.cc/">在线浏览</a>')
+            self.link_label.setText('<a href="https://www.*******.cc/">在线浏览</a>')
             return
   
         item = selected_items[0]
@@ -545,7 +547,7 @@ class GalleryCrawler(QWidget):
         if not img_url:
             self.image_label.setText("无缩略图")
             self.image_label.setPixmap(QPixmap())
-            self.link_label.setText('<a href="https://www.mxd009.cc/">在线浏览</a>')
+            self.link_label.setText('<a href="https://www.*******.cc/">在线浏览</a>')
             return
           
         self.link_label.setText(f'<a href="{item.text(3)}">在线浏览</a>')        
@@ -576,9 +578,9 @@ class GalleryCrawler(QWidget):
         if not keyword:
             QMessageBox.warning(self, "提示", "请输入关键词！")
             return
-        if keyword.startswith("https://www.mxd009.cc") and "searchid" not in keyword  and "/gallery" not in keyword:
+        if keyword.startswith("https://www.*******.cc") and "searchid" not in keyword  and "/gallery" not in keyword:
             threading.Thread(target=self.search_by_url, args=(keyword,), daemon=True).start()
-        elif keyword.startswith("https://www.mxd009.cc") and "/gallery" in keyword:
+        elif keyword.startswith("https://www.*******.cc") and "/gallery" in keyword:
             threading.Thread(target=self.search_by_gallery, args=(keyword,), daemon=True).start()
         else:
             threading.Thread(target=self.search_and_load, args=(keyword,), daemon=True).start()
