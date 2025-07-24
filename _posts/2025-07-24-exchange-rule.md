@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title:  不做讨好者，智取交换法则
+title:  学习笔记18：不做讨好者，智取交换法则
 categories: [智施,财施,讨好]
 ---
 
