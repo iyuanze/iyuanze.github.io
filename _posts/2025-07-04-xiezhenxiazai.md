@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title:  某写真网站专辑下载，带预览功能
+title:  某写图片站专辑下载，带预览功能
 categories: [python,写真,下载]
 ---
 
