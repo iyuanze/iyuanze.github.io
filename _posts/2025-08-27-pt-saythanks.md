@@ -9,8 +9,8 @@ categories: [PT,说谢谢,自动,脚本]
 
 ### # 新手考核内容
 
-<div style="border: 1px solid black; padding: 10px;">
 目前已经是需要通过邀请才能进入了，并且设置了新手考核：  <br>
+<div style="border: 1px solid black; padding: 10px;">
 名称：新手考核<br>
 时间：2025-08-22 09:14:04 ~ 2025-09-21 09:14:04 <br>
 指标1：上传增量, 要求：20 GB, 当前：28.02 GB, 结果：通过！ <br>
