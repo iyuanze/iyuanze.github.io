@@ -22,8 +22,7 @@
 <hr />
  <!-- 下面是twikoo的评论模块 -->
   <div id="tcomment"></div>
-<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js"></script>
-<script>
+<script src="https://registry.npmmirror.com/twikoo/1.6.44/files/dist/twikoo.min.js" integrity="sha384-dZ/hSVfTPHuzXyECOYCetAvMd0cgqWxN5Fh+mwo86PV4GdU9xgQ/MNzh/YM/lotR" crossorigin="anonymous"></script>
 twikoo.init({
   envId: 'https://zacom.netlify.app/.netlify/functions/twikoo', 
   // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
@@ -33,10 +32,7 @@ twikoo.init({
   // lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
 })
 </script>
-  <!-- twikoo引入锁定版本 -->
-<script src="https://s4.zstatic.net/ajax/libs/twikoo/1.6.41/twikoo.min.js" 
-integrity="sha384-QgZlvw//W8lQwue8uv2qAszlmDJE1GzJa4dEA/tt3EEyn7VQd5BgrdZMzoCAkTQT" crossorigin="anonymous">
-</script>
+
   
   <!-- 下面是cusdis的评论模块 -->
   {%- if page.id -%}
@@ -56,3 +52,4 @@ integrity="sha384-QgZlvw//W8lQwue8uv2qAszlmDJE1GzJa4dEA/tt3EEyn7VQd5BgrdZMzoCAkT
 {% include script.html -%}
 </body>
 </html>
+
