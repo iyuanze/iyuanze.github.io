@@ -22,8 +22,8 @@
 <hr />
  <!-- 下面是twikoo的评论模块 -->
   <div id="tcomment"></div>
-<script src="https://registry.npmmirror.com/twikoo/1.6.44/files/dist/twikoo.min.js" integrity="sha384-dZ/hSVfTPHuzXyECOYCetAvMd0cgqWxN5Fh+mwo86PV4GdU9xgQ/MNzh/YM/lotR" crossorigin="anonymous"></script>
-twikoo.init({
+<script src="https://s4.zstatic.net/npm/twikoo@1.6.44/dist/twikoo.min.js" integrity="sha384-dZ/hSVfTPHuzXyECOYCetAvMd0cgqWxN5Fh+mwo86PV4GdU9xgQ/MNzh/YM/lotR" crossorigin="anonymous"></script>
+<script>
   envId: 'https://zacom.netlify.app/.netlify/functions/twikoo', 
   // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
   el: '#tcomment', // 容器元素
@@ -39,5 +39,6 @@ twikoo.init({
 {% include script.html -%}
 </body>
 </html>
+
 
 
