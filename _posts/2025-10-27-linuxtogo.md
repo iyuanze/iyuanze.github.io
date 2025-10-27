@@ -161,4 +161,10 @@ U盘：准备一个高速USB 3.0及以上的U盘或移动硬盘，容量建议�
 
 希望这份详细的指南能帮助你成功制作出属于自己的Linux To Go！
 
+引用：  
+https://zhuanlan.zhihu.com/p/27871019  
+https://blog.csdn.net/qq_45366830/article/details/129612844  
+https://zhuanlan.zhihu.com/p/193926222  
+https://www.luogu.com/article/lhccdt2t  
+
 <img src="https://i.ooxx.ooo/i/YTYzZ.jpg" alt= "在场请回答" width="50%" height="50%">
