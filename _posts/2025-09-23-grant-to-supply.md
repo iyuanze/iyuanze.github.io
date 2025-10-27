@@ -23,4 +23,5 @@ categories: [施舍,供养,气场]
 我们在下一篇文章一起学习，记得关注我们。
 
 路过的大佬请关注我的公众号(搜索：在场请回答)，我们一起分享讨论。
-<img src="https://freeimage.host/i/KaZezml" alt= "在场请回答" width="50%" height="50%">
+
+<img src="https://i.ooxx.ooo/i/YTYzZ.jpg" alt= "在场请回答" width="50%" height="50%">
