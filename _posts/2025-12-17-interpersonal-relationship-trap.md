@@ -22,6 +22,6 @@ categories: [人际关系,陷阱,操控]
 
 当然上述内容有一些观点比较极端，后面我们再一起探讨你怎么去对待别人，防止自己不去走火入魔。
 
-过往的大佬，关注一下公众号，感谢！！！
+路过的大佬，关注一下公众号，感谢！！！
 
-<img src="https://i.ooxx.ooo/i/YTYzZ.jpg" alt= "在场请回答" width="50%" height="50%">
+<img src="https://user0118.cn.imgto.link/public/20260124/segment.avif" alt= "在场请回答" width="50%" height="50%">
