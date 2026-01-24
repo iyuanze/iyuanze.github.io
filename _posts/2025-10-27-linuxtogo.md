@@ -167,4 +167,6 @@ https://blog.csdn.net/qq_45366830/article/details/129612844
 https://zhuanlan.zhihu.com/p/193926222  
 https://www.luogu.com/article/lhccdt2t  
 
-<img src="https://i.ooxx.ooo/i/YTYzZ.jpg" alt= "在场请回答" width="50%" height="50%">
+路过的大佬，关注一下公众号，感谢！！！
+
+<img src="https://user0118.cn.imgto.link/public/20260124/segment.avif" alt= "在场请回答" width="50%" height="50%">
