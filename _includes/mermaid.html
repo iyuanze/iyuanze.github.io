@@ -1,0 +1,56 @@
+
+<style>
+  .mermaid {
+    text-align: center;
+    margin: 24px auto;
+    overflow-x: auto;
+    padding: 12px 0;
+  }
+
+  .mermaid svg {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'default',
+    securityLevel: 'strict'
+  });
+
+  // Convert Jekyll Markdown code blocks to Mermaid containers
+  document.querySelectorAll(
+    'pre > code.language-mermaid, pre > code.lang-mermaid, ' +
+    'div.highlighter-rouge.language-mermaid pre'
+  ).forEach((element) => {
+    const pre = element.closest('pre');
+
+    if (!pre || pre.dataset.mermaidConverted) return;
+
+    const wrapper = pre.closest('.highlighter-rouge');
+    const container = document.createElement('div');
+
+    container.className = 'mermaid';
+    container.textContent = element.textContent;
+    pre.dataset.mermaidConverted = 'true';
+
+    if (wrapper && wrapper.classList.contains('language-mermaid')) {
+      wrapper.replaceWith(container);
+    } else {
+      pre.replaceWith(container);
+    }
+  });
+
+  // Render all Mermaid diagrams
+  try {
+    await mermaid.run({
+      querySelector: '.mermaid'
+    });
+  } catch (error) {
+    console.error('Mermaid rendering failed:', error);
+  }
+</script>
